@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "LooseLeaf",
+  "description": "This extension will add bookmarks to your LooseLeaf notebooks",
+  "version": "1.0",
+  "browser_action": {
+   "default_icon": "images/icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "<all_urls>",
+    "https://ajax.googleapis.com/"
+  ]
+}

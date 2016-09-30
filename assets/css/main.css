@@ -1,0 +1,56 @@
+@import url("materialize.min.css");
+@import url("font-awesome/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("http://fonts.googleapis.com/css?family=Tangerine");
+
+.hero {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
+  margin-bottom: 0px;
+  width: 300px;
+}
+.btn {
+    border-radius: 4px;
+    text-transform: none;
+}
+.dropdown-button {
+  color: #616161;
+}
+.dropdown-button:hover {
+  cursor: pointer;
+}
+#option-dropdown {
+  top: 35px !important;
+  font-weight: 200;
+  width: 150px !important;
+}
+#option-dropdown a {
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+#option-dropdown i {
+  padding-right: 10px;
+}
+.row img {
+  width: 100%;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.row img:hover {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.section-white {
+  background-color: #fafafa;
+}
+.section-grey {
+  background-color: #f5f5f5;
+}
+.section-green {
+    background-color: #00897b;
+}
+.section-brown {
+    background-color: #383435;
+}
